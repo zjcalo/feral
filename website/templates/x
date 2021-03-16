@@ -1,0 +1,32 @@
+zacharycalo@Zacharys-MacBook-Pro ~ % cd ~/Users/Desktop
+cd: no such file or directory: /Users/zacharycalo/Users/Desktop
+zacharycalo@Zacharys-MacBook-Pro ~ % cd ~/Users/Desktop
+cd: no such file or directory: /Users/zacharycalo/Users/Desktop
+zacharycalo@Zacharys-MacBook-Pro ~ % cd ~/Desktop
+zacharycalo@Zacharys-MacBook-Pro Desktop % cd Django
+zacharycalo@Zacharys-MacBook-Pro Django % mkdir dentistsite
+zacharycalo@Zacharys-MacBook-Pro Django % ls
+dentistsite
+zacharycalo@Zacharys-MacBook-Pro Django % cd dentistsite
+zacharycalo@Zacharys-MacBook-Pro dentistsite % virtualenv venv
+created virtual environment CPython3.7.3.final.0-64 in 620ms
+  creator CPython3Posix(dest=/Users/zacharycalo/Desktop/Django/dentistsite/venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/zacharycalo/Library/Application Support/virtualenv)
+    added seed packages: pip==21.0.1, setuptools==53.0.0, wheel==0.36.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+zacharycalo@Zacharys-MacBook-Pro dentistsite % ls
+venv
+zacharycalo@Zacharys-MacBook-Pro dentistsite % start venv
+zsh: command not found: start
+zacharycalo@Zacharys-MacBook-Pro dentistsite % source virtual/scripts/activate
+source: no such file or directory: virtual/scripts/activate
+zacharycalo@Zacharys-MacBook-Pro dentistsite % source venv/scripts/activate
+source: no such file or directory: venv/scripts/activate
+zacharycalo@Zacharys-MacBook-Pro dentistsite % source venv/bin/activate
+
+(venv) zacharycalo@Zacharys-MacBook-Pro dentistsite %
+(venv) zacharycalo@Zacharys-MacBook-Pro dentistsite %
+(venv) zacharycalo@Zacharys-MacBook-Pro dentistsite %
+(venv) zacharycalo@Zacharys-MacBook-Pro dentistsite %
+(venv) zacharycalo@Zacharys-MacBook-Pro dentistsite % pip freeze
+(venv) zacharycalo@Zacharys-MacBook-Pro dentistsite % pip install django
